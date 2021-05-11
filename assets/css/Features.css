@@ -1,0 +1,74 @@
+.features {
+  color: #e8e8e8;
+  background-color: #23282c;
+}
+
+.features p {
+  color: #cfcfcf;
+}
+
+.features h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .features h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features .intro {
+  font-size: 18px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.features .intro p {
+  margin-bottom: 0;
+}
+
+.features .features {
+  padding: 50px 0;
+}
+
+.features .item {
+  text-align: center;
+}
+
+.features .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #23282c;
+  margin-bottom: 30px;
+}
+
+.features .item .icon {
+  font-size: 80px;
+  color: #ff6600;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.features .item .name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: inherit;
+}
+
+.features .item .description {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.fab.fa-osi.icon {
+  font-weight: bold;
+}
+
