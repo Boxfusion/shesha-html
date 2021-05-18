@@ -1,6 +1,6 @@
 .features-boxed {
   color: #e8e8e8;
-  background-color: #23282c;
+  background-color: #1e2123;
 }
 
 .features-boxed p {
@@ -43,7 +43,7 @@
 .features-boxed .item .box {
   text-align: center;
   padding: 30px;
-  background-color: #23282c;
+  background-color: #1e2123;
   margin-bottom: 30px;
 }
 

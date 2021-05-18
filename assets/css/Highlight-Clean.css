@@ -1,6 +1,6 @@
 .highlight-clean {
   color: #e8e8e8;
-  background-color: #23282c;
+  background-color: #1e2123;
   padding: 100px 0;
 }
 
@@ -9,6 +9,14 @@
 }
 
 .highlight-clean h1 {
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-clean h2 {
   margin-bottom: 25px;
   line-height: 1.5;
   padding-top: 0;
@@ -55,5 +63,27 @@
 .highlight-clean .buttons .btn-primary {
   background-color: #ff6600;
   color: #fff;
+}
+
+.container-center {
+  height: 70vh !important;
+}
+
+.logo {
+  margin-left: 5%;
+  height: 49px;
+  vertical-align: middle;
+}
+
+.button-group {
+  margin-bottom: 10%;
+}
+
+.dot-net {
+  background-color: #0f72b9 !important;
+}
+
+.react {
+  background-color: #61dafb !important;
 }
 
