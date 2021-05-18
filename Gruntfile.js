@@ -25,12 +25,19 @@ module.exports = function (grunt) {
                     ext: '.css'
                 }]
             }
+        },
+        watch: {
+            sass: {
+                files: ['**/*.scss'],
+                tasks: ['sass'],
+            }
         }
     });
 
     // Load required plugins
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
     grunt.registerTask('default', ['uglify', 'sass']);
