@@ -7,7 +7,7 @@ The following project requries the tools below installed for developers to be ab
 
 - Node.js
 - Sass
-- Grunt
+- Grunt 
 
 ## License
 
